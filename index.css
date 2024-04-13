@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.blog__header{
+    margin: 0;
+}
+
+.blog {
+    max-width: 700px;
+	border: 1px solid black;
+    padding: 1em;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    display: inline-block;
+    color: black;
+}
+
+.image-container__link{
+    margin-top: 1em;
+}
+
+.image-container__img{
+    width: 100%;
+    max-width: 500px;
+}
+
+ol{
+    padding-left: 1em;
+}
